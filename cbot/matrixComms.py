@@ -7,7 +7,7 @@ import json
 from nio.crypto import device
 
 
-# Import json secrets
+# Import json secrets from secrets.json file
 def secrets_import():
     file_path = r"./cbot/secrets.json"
     f = open(file_path)
